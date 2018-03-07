@@ -1,0 +1,23 @@
+<!-- _layouts/default -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>VFS.io - {% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="sha384-2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
+		<link href='https://fonts.googleapis.com/css?family=Quantico:700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl | prepend: site.url }}">
+	</head>
+	<body>
+
+		{{ content }}
+
+		{% include footer.html %}
+
+	</body>
+</html>
+<!-- /_layouts/default -->
